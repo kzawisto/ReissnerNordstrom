@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Reissner Nordstrom black hole</title>
+    <script src="Elliptic.js"></script>
+    <script src="Poly.js"></script>
+    <script src="ThetaArray.js"></script>
+    <script src="AlphaToTheta.js"></script>
+    <script src="Calcs.js"></script>
+    
+
+    
+</head>
+<body oncontextmenu="return false;">
+    This animation shows the gravitational deflection of the light of distant stars by the extremal Reissner-Nordstrom black hole (Q=0.99), as seen by freely falling observer.
+    The light trajectories are evaluated very precisely, and this is done mostly to present their shapes. 
+    Other effects are purely illustrative (or decorative). I.e. although photon world lines intersect the horizon none should see any light coming out of black hole, while being far from it, as the horizon is represented by infinite null past or future in this frame. The magnitude of blueshift has no physical meaning as well, especially considering that one should expect infinite blueshift at the inner (Cauchy) horizon.
+<br/>
+<br/>
+<br/>
+<br/>
+
+<button title="doSth" onClick="doCalcs();">Start</button>
+  
+r=<input type="text" name="textbox2" id="textbox2" />   
+
+<button title="doSth" onClick="displayFrame();">Frame</button> <br/>
+
+<canvas id="myCanvas" width="800" height="600"
+style="border:1px solid #000000;">No canvas support
+</canvas> </body>
